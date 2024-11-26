@@ -45,6 +45,7 @@ public class StepDefination extends utils {
 		
 		APIResources resourceAPI=APIResources.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
+		System.out.println("got responsefor 1");
 		
 		resspec= new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		
