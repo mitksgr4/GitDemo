@@ -79,6 +79,10 @@ public class StepDefination extends utils {
 		
 		assertEquals(ActualName,expectedName);
 		
+		System.out.println(ActualName);
+		System.out.println(expectedName);
+		System.out.println("Assertion done");
+		
 		
 		
 		
